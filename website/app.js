@@ -6,7 +6,7 @@
 //const feelings = document.querySelector('#feelings');
 const button = document.querySelector('#generate');
 
-const baseURL = 'api.openweathermap.org/data/2.5/weather?q=';
+const baseURL = 'http://api.openweathermap.org/data/2.5/weather?q=';
 const apiKey = '&appid=c286b5e1dc71e3539a598870ffa96c2e';
 // Create a new date instance dynamically with JS
 let d = new Date();
