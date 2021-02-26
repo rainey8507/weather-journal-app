@@ -30,26 +30,26 @@ body{
 }
 
 #entryHolder{
-
+    text-align: center;
 }
 
 #date{
-
+ font-size: 20px;
 }
 
 #temp{
-
+    text-align: center;
 }
 
 #content{
-
+    font-weight: normal;
 }
 
 .headline {
-
+    font-weight: bold;
 }
 .title{
-
+    font-weight: bolder;
 }
 
 /*  Basic Styling To Override Default For Basic HTML Elements */
@@ -70,6 +70,7 @@ input{
 }
 
 button{
+    cursor: pointer;
     width: 400px;
     height: 100px;
     background: #c7ccd6;
